@@ -2,6 +2,7 @@
 Injects keypress listener to hijack pressed keys in a webview, demonstration purpose only.
 
 # how it works
+- initiate a webview with a configuration that allows getting updates from the injected javascript, [ref](https://github.com/erkekin/webview-keylogger/blob/main/webview-keylogger/ViewController.swift#L12)
 - load a url into webview
 - inject a javascript code and override keypress event handler
 - observe pressed keys
